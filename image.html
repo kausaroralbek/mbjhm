@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(239, 239, 239);
+      }
+      .Frontent {
+        display: flex;
+        gap: 20px;
+      }
+      .inside {
+        margin-left: 870px;
+        display: flex;
+        gap: 20px;
+      }
+      .mini {
+        background-color: rgb(231, 233, 233);
+        border-radius: 7px;
+        border: 1px solid rgb(209, 213, 215);
+        width: 1000px;
+        /* height: 100px; */
+        margin-left: 200px;
+        padding: 10px;
+        /* display: flex;
+        flex-direction: row; */
+      }
+      .super {
+        display: flex;
+        flex-direction: row;
+        gap: 700px;
+      }
+      button {
+        border: none;
+        border-radius: 20px;
+        width: 200px;
+        height: 40px;
+        background-color: rgb(180, 46, 68);
+        color: white;
+        font-style: italic;
+      }
+      .supermini {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .medina,
+      .akniyet {
+        display: flex;
+        flex-direction: column;
+      }
+      .nurbi {
+        opacity: 0.6;
+        margin-left: 200px;
+      }
+      .amina {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        gap: 530px;
+        margin-left: 200px;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .box1 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .box2 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .box3 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .box4 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .box5 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .box6 {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(219, 218, 218);
+      }
+      .aisha {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: -15px;
+      }
+      .big1 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+      }
+      .big2 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 20px;
+      }
+      .big3 {
+        margin-left: 200px;
+        gap: 30px;
+      }
+      .check {
+        width: 20px;
+        height: 20px;
+      }
+      .inputs {
+        display: flex;
+        flex-direction: row;
+        gap: 460px;
+        margin-left: 200px;
+        margin-top: 50px;
+      }
+      .imp {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      .safi,
+      .safii {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Frontent">
+      <span
+        style="
+          display: flex;
+          flex-direction: row;
+          gap: 5px;
+          align-items: center;
+          font-size: 12px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+        ><img
+          style="width: 25px; height: 25px"
+          src="./favicon-32x32.png"
+        />Frontend Mentor</span
+      >
+      <div class="inside">
+        <span style="font-size: 12px"
+          ><b><em>EXPLORE</em></b></span
+        >
+        <img
+          style="margin-top: -3px; margin-left: -15px; margin-right: -15px"
+          class="check"
+          src="./down-arrow.png"
+          alt=""
+        />
+        <span style="font-size: 12px"
+          ><b><em>FOR COMPANIES</em></b></span
+        >
+        <img
+          style="margin-top: -3px; margin-left: -15px; margin-right: -15px"
+          class="check"
+          src="./down-arrow.png"
+          alt=""
+        />
+        <span style="font-size: 12px"
+          ><b><em>UNLOCK</em></b></span
+        >
+
+        <span
+          style="
+            background-color: rgb(58, 58, 148);
+            border-radius: 5px;
+            color: white;
+            width: 40px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            font-size: 11px;
+            margin-left: -15px;
+            margin-top: -3px;
+          "
+          ><b><em>PRO</em></b></span
+        >
+        <img class="check" src="./bell.png" alt="" />
+        <img class="check" src="./shopping-bag.png" alt="" />
+        <img class="check" src="./thought-bubble.png" alt="" />
+      </div>
+    </div>
+    <div>
+      <p
+        style="
+          display: flex;
+          align-items: center;
+          height: 30px;
+          border-bottom: 1px solid rgb(209, 208, 208);
+          border-top: 1px solid rgb(209, 208, 208);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 12px;
+        "
+      >
+        CHALLENGES
+      </p>
+
+      <div class="mini">
+        <div class="super">
+          <p
+            style="
+              width: 400px;
+              font-size: 15px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+            "
+          >
+            Unlock full access
+          </p>
+          <button><b>UPGRADE NOW</b></button>
+        </div>
+
+        <div class="supermini">
+          <div class="medina">
+            <p
+              style="
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              <img class="check" src="./check.png" /> Al-powered solution
+              reviews
+            </p>
+            <p
+              style="
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              <img class="check" src="./check.png" />Professional Figma design
+              files
+            </p>
+          </div>
+          <div class="akniyet">
+            <p
+              style="
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              <img class="check" src="./check.png" />50+ portfolio-ready premium
+              projects
+            </p>
+            <p
+              style="
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              <img class="check" src="./check.png" />And more!
+            </p>
+          </div>
+          <div class="nurbi">
+            <p
+              style="
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: 25px;
+              "
+            >
+              Work in a team?
+              <a href="#">Upgrade you team to Pro</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="inputs">
+      <fieldset style="border: none; background-color: white">
+        <div class="safii">
+          <input
+            style="border: none"
+            type="text"
+            id="card"
+            placeholder="Search chellenges..."
+          />
+          <img
+            style="width: 11px; height: 11px; opacity: 0.5"
+            src="./search (1).png"
+            alt=""
+          />
+        </div>
+      </fieldset>
+      <div class="imp">
+        <fieldset style="border: none; background-color: white">
+          <input
+            style="border: none"
+            type="text"
+            id="card"
+            placeholder="Filter"
+          />
+        </fieldset>
+        <fieldset style="border: none; background-color: white">
+          <div class="safi">
+            <input
+              style="border: none"
+              type="text"
+              id="card"
+              placeholder="Newest to oldest"
+            /><img
+              style="width: 20px; height: 20px; opacity: 0.5"
+              src="./down-arrow.png"
+            />
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <div class="amina">
+      <p style="opacity: 0.6">Showing 199 of 199 chellenges</p>
+      <p style="color: grey; margin-right: 200px">
+        Not sure where to start?<a href="#">Try lerning our.paths</a>
+      </p>
+    </div>
+    <div class="big3">
+      <div class="big1">
+        <div class="box1">
+          <img style="width: 300px; height: 250px" src="./image-6.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Weather app
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+            <p
+              style="
+                color: lightgreen;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              API
+            </p>
+          </div>
+          <p
+            style="color: rgb(255, 200, 0); border: 2px solid rgb(255, 200, 0)"
+          >
+            <b
+              style="
+                background-color: rgb(255, 200, 0);
+                border-left: 5px solid rgb(255, 200, 0);
+                border-right: 6px solid rgb(255, 200, 0);
+                margin-bottom: 10px;
+                color: white;
+              "
+              >3</b
+            >
+            INTERMEIATE
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            Build a responsive weather app with <br />search functionality,<br />
+            unit conversion, and detailed forecasts using the Open-<br />Meteo
+            API.
+          </p>
+        </div>
+        <div class="box2">
+          <img style="width: 300px; height: 250px" src="./image-5.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Recipe finder website
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+          </div>
+          <p
+            style="color: rgb(255, 200, 0); border: 2px solid rgb(255, 200, 0)"
+          >
+            <b
+              style="
+                background-color: rgb(255, 200, 0);
+                border-left: 5px solid rgb(255, 200, 0);
+                border-right: 6px solid rgb(255, 200, 0);
+
+                color: white;
+              "
+              >3</b
+            >
+            INTERMEIATE
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            Build a responsive recipe finder with search, filtering, and dynamic
+            content. Practice working with JSON data, complex layouts, and
+            interactive JavaScript features.
+          </p>
+        </div>
+
+        <div class="box3">
+          <img style="width: 300px; height: 250px" src="./image-4.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Mood tracing app
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+          </div>
+          <p
+            style="color: rgb(242, 143, 4); border: 2px solid rgb(242, 143, 4)"
+          >
+            <b
+              style="
+                background-color: rgb(242, 143, 4);
+                border-left: 5px solid rgb(242, 143, 4);
+                border-right: 6px solid rgb(242, 143, 4);
+                color: white;
+              "
+              >4</b
+            >
+            ADVENCED
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            Building this app will be a fun way to test a range of your skills.
+            From working with JSON data to logging and charting mood entries,
+            there's a lot to get stuck into!
+          </p>
+        </div>
+      </div>
+      <div class="big2">
+        <div class="box4">
+          <img style="width: 300px; height: 250px" src="./image-3.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Browser extention manager UI
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+          </div>
+          <p style="color: rgb(23, 170, 0); border: 2px solid rgb(23, 170, 0)">
+            <b
+              style="
+                background-color: rgb(23, 170, 0);
+                border-left: 5px solid rgb(23, 170, 0);
+                border-right: 6px solid rgb(23, 170, 0);
+
+                color: white;
+              "
+              >2</b
+            >
+            JUNIOR
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            This project will be a fun way to practice working with dynamic
+            data, filtering data, color theming, building a responsive grid, and
+            more!
+          </p>
+        </div>
+
+        <div class="box5">
+          <img style="width: 300px; height: 250px" src="./image-2.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Personal blog
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+          </div>
+          <p
+            style="color: rgb(255, 200, 0); border: 2px solid rgb(255, 200, 0)"
+          >
+            <b
+              style="
+                background-color: rgb(255, 200, 0);
+                border-left: 5px solid rgb(255, 200, 0);
+                border-right: 6px solid rgb(255, 200, 0);
+                color: white;
+              "
+              >3</b
+            >
+            INTERMEIATE
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            This multi-page personal blog project has a JSON file to practice
+            working with dynamic data. You can even use a headless CMS to take
+            the difficulty up a notch!
+          </p>
+        </div>
+
+        <div class="box6">
+          <img style="width: 300px; height: 250px" src="./image-1.png" alt="" />
+          <p
+            style="
+              font-size: 20px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              margin-left: 5px;
+            "
+          >
+            Character counter
+          </p>
+          <div class="aisha">
+            <p
+              style="
+                color: rgb(15, 200, 200);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              HTML
+            </p>
+            <p
+              style="
+                color: purple;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              CSS
+            </p>
+            <p
+              style="
+                color: rgb(255, 132, 152);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+              "
+            >
+              JS
+            </p>
+          </div>
+          <p style="color: rgb(23, 170, 0); border: 2px solid rgb(23, 170, 0)">
+            <b
+              style="
+                background-color: rgb(23, 170, 0);
+                border-left: 5px solid rgb(23, 170, 0);
+                border-right: 6px solid rgb(23, 170, 0);
+
+                color: white;
+              "
+              >2</b
+            >
+            JUNIOR
+          </p>
+          <p
+            style="
+              font-size: 11px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              opacity: 0.6;
+            "
+          >
+            This project will test a range of your skills, especially your
+            JavaScript, with the counters and letter density graph. The theme
+            switcher is another little challenge.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
